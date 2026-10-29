@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Smart Capture",
+    "slug": "smart-capture-notes",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Used to capture photos for your records.",
+          "photosPermission": "Used to select photos for your records."
+        }
+      ],
+      "expo-sqlite",
+      "expo-sharing"
+    ]
+  }
+}
